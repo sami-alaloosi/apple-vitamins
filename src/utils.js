@@ -3,11 +3,11 @@
 //   DATA IS THE SAME JUST A DIFFERENT URL,
 //   DOES NOT AFFECT PROJECT FUNCTIONALITY
 
-const allProductsUrl = 'https://vitamin-api.herokuapp.com/api'
+const allProductsUrl = 'https://applething.herokuapp.com/api'
 // temporary single product
 // 'https://vitamin-api.herokuapp.com/api/product?id=1'
 const singleProductUrl =
-  'https://vitamin-api.herokuapp.com/api/product'
+  'https://applething.herokuapp.com/api/product'
 
 const getElement = (selection) => {
   const element = document.querySelector(selection)
